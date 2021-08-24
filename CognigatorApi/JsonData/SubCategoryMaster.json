@@ -1,0 +1,202 @@
+{
+	"SubCategoryMaster": [
+		{
+			"N_SUBCATEGORY_ID": "1",
+			"S_SUBCATEGORY_NAME": "Fan",
+			"N_CATEGORY_ID": "2",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/6/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "2",
+			"S_SUBCATEGORY_NAME": "Refridgerator",
+			"N_CATEGORY_ID": "2",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/7/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "3",
+			"S_SUBCATEGORY_NAME": "Coffee Machine",
+			"N_CATEGORY_ID": "2",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/8/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "4",
+			"S_SUBCATEGORY_NAME": "Air Cooler",
+			"N_CATEGORY_ID": "2",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/9/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "5",
+			"S_SUBCATEGORY_NAME": "Water supply",
+			"N_CATEGORY_ID": "3",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/6/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "6",
+			"S_SUBCATEGORY_NAME": "Gasfitting",
+			"N_CATEGORY_ID": "3",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/7/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "7",
+			"S_SUBCATEGORY_NAME": "Drainage",
+			"N_CATEGORY_ID": "3",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/8/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "8",
+			"S_SUBCATEGORY_NAME": "Mechanical Services",
+			"N_CATEGORY_ID": "3",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/9/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "9",
+			"S_SUBCATEGORY_NAME": "Repair",
+			"N_CATEGORY_ID": "3",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/6/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "10",
+			"S_SUBCATEGORY_NAME": "Construction Security",
+			"N_CATEGORY_ID": "4",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/7/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "11",
+			"S_SUBCATEGORY_NAME": "Executive Protection",
+			"N_CATEGORY_ID": "4",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/8/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "12",
+			"S_SUBCATEGORY_NAME": "Concierge/ Lobby Security Service",
+			"N_CATEGORY_ID": "4",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/9/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "13",
+			"S_SUBCATEGORY_NAME": "Security Consultation",
+			"N_CATEGORY_ID": "4",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/6/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "14",
+			"S_SUBCATEGORY_NAME": "Corrective maintenance",
+			"N_CATEGORY_ID": "5",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/7/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "15",
+			"S_SUBCATEGORY_NAME": "Predetermined maintenance",
+			"N_CATEGORY_ID": "5",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/8/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "16",
+			"S_SUBCATEGORY_NAME": "Condition-based maintenance",
+			"N_CATEGORY_ID": "5",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/9/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "17",
+			"S_SUBCATEGORY_NAME": "Preventive maintenance",
+			"N_CATEGORY_ID": "5",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/6/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "18",
+			"S_SUBCATEGORY_NAME": "Organic Pest Control",
+			"N_CATEGORY_ID": "6",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/7/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "19",
+			"S_SUBCATEGORY_NAME": "Chemical Pest Control",
+			"N_CATEGORY_ID": "6",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/8/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "20",
+			"S_SUBCATEGORY_NAME": "Biological Pest Control",
+			"N_CATEGORY_ID": "6",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/9/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "21",
+			"S_SUBCATEGORY_NAME": "Electronic Pest Control",
+			"N_CATEGORY_ID": "6",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/10/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		},
+		{
+			"N_SUBCATEGORY_ID": "22",
+			"S_SUBCATEGORY_NAME": "Hygiene Control",
+			"N_CATEGORY_ID": "6",
+			"S_ACTIVE": "A",
+			"D_FROM_DATE": "8/11/21",
+			"D_CREATED_DATE": "8/6/21",
+			"S_CREATED_BY": "System"
+		}
+	]
+}

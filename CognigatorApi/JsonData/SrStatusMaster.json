@@ -1,0 +1,46 @@
+{
+	"SrStatusMaster": [
+		{
+			"SR_STATUS_TRAN_ID": "1",
+			"SR_STATUS_DESC": "SR Creation Pending",
+			"S_ACTIVE": "A",
+			"S_CREATED_BY": "10-Aug-19",
+			"D_CREATED_DATE": "System"
+		},
+		{
+			"SR_STATUS_TRAN_ID": "2",
+			"SR_STATUS_DESC": "Cancelled",
+			"S_ACTIVE": "A",
+			"S_CREATED_BY": "10-Aug-19",
+			"D_CREATED_DATE": "System"
+		},
+		{
+			"SR_STATUS_TRAN_ID": "3",
+			"SR_STATUS_DESC": "Assigned to SP",
+			"S_ACTIVE": "A",
+			"S_CREATED_BY": "10-Aug-19",
+			"D_CREATED_DATE": "System"
+		},
+		{
+			"SR_STATUS_TRAN_ID": "4",
+			"SR_STATUS_DESC": "In Progress",
+			"S_ACTIVE": "A",
+			"S_CREATED_BY": "10-Aug-19",
+			"D_CREATED_DATE": "System"
+		},
+		{
+			"SR_STATUS_TRAN_ID": "5",
+			"SR_STATUS_DESC": "Invoice Generated",
+			"S_ACTIVE": "A",
+			"S_CREATED_BY": "10-Aug-19",
+			"D_CREATED_DATE": "System"
+		},
+		{
+			"SR_STATUS_TRAN_ID": "6",
+			"SR_STATUS_DESC": "Job Completed",
+			"S_ACTIVE": "A",
+			"S_CREATED_BY": "10-Aug-19",
+			"D_CREATED_DATE": "System"
+		}
+	]
+}

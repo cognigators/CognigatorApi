@@ -1,0 +1,60 @@
+﻿{
+    "CategoryMaster": [
+        {
+            "N_CATEGORY_ID": "1",
+            "S_CATEGORY_NAME": "All",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/6/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        },
+        {
+            "N_CATEGORY_ID": "2",
+            "S_CATEGORY_NAME": "Electrical",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/7/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        },
+        {
+            "N_CATEGORY_ID": "3",
+            "S_CATEGORY_NAME": "Plumbing",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/8/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        },
+        {
+            "N_CATEGORY_ID": "4",
+            "S_CATEGORY_NAME": "Security Services",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/9/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        },
+        {
+            "N_CATEGORY_ID": "5",
+            "S_CATEGORY_NAME": "Plant Maintenance",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/10/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        },
+        {
+            "N_CATEGORY_ID": "6",
+            "S_CATEGORY_NAME": "Pest Control",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/11/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        },
+        {
+            "N_CATEGORY_ID": "7",
+            "S_CATEGORY_NAME": "Security Services",
+            "S_ACTIVE": "A",
+            "D_FROM_DATE": "8/12/21",
+            "D_CREATED_DATE": "8/6/21",
+            "S_CREATED_BY": "System"
+        }
+    ]
+}
