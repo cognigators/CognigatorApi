@@ -13,6 +13,7 @@ namespace CognigatorApi.Controllers
     [ApiController]
     public class CustomerUserController : ControllerBase
     {
+        //[Produces("application/json")]
         [HttpGet, Route("GetCustomer/{clientId?}")]
         public IActionResult GetCustomer(string clientId)
         {
