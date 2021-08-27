@@ -1,26 +1,24 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace CognigatorApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ServiceRequestController : ControllerBase
+    public class CategoriesController : ControllerBase
     {
-        [HttpGet, Route("GetSR/{srId?}")]
-        public IActionResult GetSR(string srId)
+        [HttpGet, Route("GetCategories/{categoryId?}")]
+        public IActionResult GetSR(string categoryId)
         {
             //LoadJson();
             //return new string[] { "values 1", "values 2" };
-            string jsonFilePath = @"..\\cognigatorApi\\JsonData\\ServiceRequest.json";
+            string jsonFilePath = @"..\\cognigatorApi\\JsonData\\CategoryMaster.json";
             using (StreamReader r = new StreamReader(jsonFilePath))
             {
                 string json = r.ReadToEnd();
@@ -47,16 +45,17 @@ namespace CognigatorApi.Controllers
                 //}
                 //List<ServiceRequest> ServiceRequestResult = JsonConvert.DeserializeObject<List<ServiceRequest>>(json);
                 #endregion
-                var result =string.Empty;
-                if (!string.IsNullOrEmpty(srId))
+                var result = string.Empty;
+                if (!string.IsNullOrEmpty(categoryId))
                 {
-                    List<ServiceRequest> ServiceRequestResult = JsonConvert.DeserializeObject<List<ServiceRequest>>(json).Where(x=> x.sr_id == srId).ToList();
-                     result = JsonConvert.SerializeObject(ServiceRequestResult, Formatting.Indented);
+                    List<CategoryMaster> CognigatorObject = JsonConvert.DeserializeObject<List<CategoryMaster>>(json).Where(x => x.n_category_id == categoryId).ToList();
+                    result = JsonConvert.SerializeObject(CognigatorObject, Formatting.Indented);
 
 
                 }
-                else { 
-                     result = json; 
+                else
+                {
+                    result = json;
                 }
                 //if (!result.Any())
                 //{
@@ -65,19 +64,15 @@ namespace CognigatorApi.Controllers
                 return Ok(result);
             }
         }
-       
-        public class ServiceRequest
+
+        public class CategoryMaster
         {
-            public string sr_id { get; set; }
             public string n_category_id { get; set; }
-            public string n_subcategory_id { get; set; }
-            public string sp_mapping_id { get; set; }
-            public string sr_status_tran_id { get; set; }
-            public string s_client_id { get; set; }
+            public string s_category_name { get; set; }
+            public string s_active { get; set; }
+            public string d_from_date { get; set; }
             public string d_created_date { get; set; }
             public string s_created_by { get; set; }
-            public string s_active { get; set; }
-            public string misc_cost { get; set; }
 
         }
     }

@@ -1,5 +1,4 @@
-{
-	"SpMaster": [
+[
 		{
 			"SP_MASTER_ID": "1",
 			"SP_NAME": "Liam",
@@ -15,7 +14,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing"
 		},
 		{
 			"SP_MASTER_ID": "2",
@@ -32,7 +32,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Security Services,Pest Control,Plumbing"
 		},
 		{
 			"SP_MASTER_ID": "3",
@@ -49,7 +50,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Plant Maintenance,Security Services"
 		},
 		{
 			"SP_MASTER_ID": "4",
@@ -66,7 +68,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Plant Maintenance,Security Services,Plumbing"
 		},
 		{
 			"SP_MASTER_ID": "5",
@@ -83,7 +86,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Security Services,Plumbing"
 		},
 		{
 			"SP_MASTER_ID": "6",
@@ -100,7 +104,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Plant Maintenance,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "7",
@@ -117,7 +122,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Plant Maintenance,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "8",
@@ -134,7 +140,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plant Maintenance,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "9",
@@ -151,7 +158,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Security Services,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "10",
@@ -168,7 +176,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Plumbing"
 		},
 		{
 			"SP_MASTER_ID": "11",
@@ -185,7 +194,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical"
 		},
 		{
 			"SP_MASTER_ID": "12",
@@ -202,7 +212,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Plant Maintenance,Security Services"
 		},
 		{
 			"SP_MASTER_ID": "13",
@@ -219,7 +230,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Security Services,Plumbing"
 		},
 		{
 			"SP_MASTER_ID": "14",
@@ -236,7 +248,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Security Services,Plant Maintenance,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "15",
@@ -253,7 +266,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Security Services,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "16",
@@ -270,7 +284,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Security Services,Plumbing,Plant Maintenance,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "17",
@@ -287,7 +302,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Security Services"
 		},
 		{
 			"SP_MASTER_ID": "18",
@@ -304,7 +320,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "19",
@@ -321,7 +338,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Plumbing,Plant Maintenance,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "20",
@@ -338,7 +356,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "21",
@@ -355,7 +374,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "22",
@@ -372,7 +392,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Plumbing,Plant Maintenance"
 		},
 		{
 			"SP_MASTER_ID": "23",
@@ -389,7 +410,8 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Pest Control"
 		},
 		{
 			"SP_MASTER_ID": "24",
@@ -406,7 +428,7 @@
 			"D_FROM_DATE": "1-Jan-19",
 			"D__TO_DATE": "31-Dec-22",
 			"S_CREATED_BY": "System",
-			"D_CREATED_DATE": "10-Aug-19"
+			"D_CREATED_DATE": "10-Aug-19",
+			"CATEGORY_TAGGED": "Electrical,Plumbing,Plant Maintenance,Security Services"
 		}
 	]
-}

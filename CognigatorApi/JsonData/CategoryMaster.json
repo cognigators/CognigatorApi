@@ -1,5 +1,4 @@
-﻿{
-    "CategoryMaster": [
+﻿[
         {
             "N_CATEGORY_ID": "1",
             "S_CATEGORY_NAME": "All",
@@ -57,4 +56,3 @@
             "S_CREATED_BY": "System"
         }
     ]
-}
