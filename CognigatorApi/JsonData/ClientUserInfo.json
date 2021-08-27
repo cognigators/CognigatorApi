@@ -1,5 +1,4 @@
-{
-	"ClientUserInfo": [
+[
 		{
 			"S_CLIENT_ID": "1",
 			"S_CLIENT_NAME": "MGM",
@@ -46,4 +45,3 @@
 			"S_CLIENT_EMAIL": "nbcc@user.com"
 		}
 	]
-}

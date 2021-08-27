@@ -1,5 +1,4 @@
-{
-	"SrStatusMaster": [
+[
 		{
 			"SR_STATUS_TRAN_ID": "1",
 			"SR_STATUS_DESC": "SR Creation Pending",
@@ -43,4 +42,3 @@
 			"D_CREATED_DATE": "System"
 		}
 	]
-}

@@ -1,5 +1,4 @@
-{
-	"CovidVaccinationmaster": [
+[
 		{
 			"SP_VACCINATION_TYPE_ID": "1",
 			"SP_VACCINATION_TYPE": "Moderna mRNA-1273",
@@ -31,4 +30,3 @@
 			"S_ACTIVE": "A"
 		}
 	]
-}
