@@ -1,0 +1,47 @@
+[
+		{
+			"S_CLIENT_ID": "1",
+			"S_CLIENT_NAME": "MGM",
+			"S_USER_LOCATION": "Visalia, CA, USA",
+			"S_USER_LATITUDE": "36.316666",
+			"S_USER_LONGTITUDE": "-119.300003",
+			"S_USER_MOBILE_NO": "345-736-5674",
+			"S_CLIENT_EMAIL": "mgm@user.com"
+		},
+		{
+			"S_CLIENT_ID": "2",
+			"S_CLIENT_NAME": "ITC",
+			"S_USER_LOCATION": "Hampton, VA, USA",
+			"S_USER_LATITUDE": "37.034946",
+			"S_USER_LONGTITUDE": "-76.360123",
+			"S_USER_MOBILE_NO": "246-345-6789",
+			"S_CLIENT_EMAIL": "itc@user.com"
+		},
+		{
+			"S_CLIENT_ID": "3",
+			"S_CLIENT_NAME": "Omaxe Ltd",
+			"S_USER_LOCATION": "West Valley City, UT, USA",
+			"S_USER_LATITUDE": "40.689167",
+			"S_USER_LONGTITUDE": "-111.993889",
+			"S_USER_MOBILE_NO": "745-687-3647",
+			"S_CLIENT_EMAIL": "omaxeltd@user.com"
+		},
+		{
+			"S_CLIENT_ID": "4",
+			"S_CLIENT_NAME": "Phoenix",
+			"S_USER_LOCATION": "Surprise, AZ, USA",
+			"S_USER_LATITUDE": "33.630554",
+			"S_USER_LONGTITUDE": "-112.366669",
+			"S_USER_MOBILE_NO": "209-384-4657",
+			"S_CLIENT_EMAIL": "phoenix@user.com"
+		},
+		{
+			"S_CLIENT_ID": "5",
+			"S_CLIENT_NAME": "NBCC",
+			"S_USER_LOCATION": "Thornton, CO, USA",
+			"S_USER_LATITUDE": "39.903057",
+			"S_USER_LONGTITUDE": "-104.954445",
+			"S_USER_MOBILE_NO": "165-345-2675",
+			"S_CLIENT_EMAIL": "nbcc@user.com"
+		}
+	]

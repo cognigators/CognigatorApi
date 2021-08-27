@@ -1,0 +1,32 @@
+[
+		{
+			"SP_VACCINATION_TYPE_ID": "1",
+			"SP_VACCINATION_TYPE": "Moderna mRNA-1273",
+			"NO_OF_MANDATORY_DOSES": "2",
+			"S_ACTIVE": "A"
+		},
+		{
+			"SP_VACCINATION_TYPE_ID": "2",
+			"SP_VACCINATION_TYPE": "Gamaleya Sputnik V",
+			"NO_OF_MANDATORY_DOSES": "2",
+			"S_ACTIVE": "A"
+		},
+		{
+			"SP_VACCINATION_TYPE_ID": "3",
+			"SP_VACCINATION_TYPE": "Oxford/AstraZeneca AZD1222",
+			"NO_OF_MANDATORY_DOSES": "2",
+			"S_ACTIVE": "A"
+		},
+		{
+			"SP_VACCINATION_TYPE_ID": "4",
+			"SP_VACCINATION_TYPE": "Covishield",
+			"NO_OF_MANDATORY_DOSES": "2",
+			"S_ACTIVE": "A"
+		},
+		{
+			"SP_VACCINATION_TYPE_ID": "5",
+			"SP_VACCINATION_TYPE": "Covaxin",
+			"NO_OF_MANDATORY_DOSES": "2",
+			"S_ACTIVE": "A"
+		}
+	]

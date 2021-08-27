@@ -10,11 +10,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
+using Microsoft.Extensions.Options;
+using System.Text.Json.Serialization;
 
 namespace CognigatorApi
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -25,7 +31,38 @@ namespace CognigatorApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://example.com",
+                                                          "http://www.contoso.com");
+                                  });
+            });
+            //services.AddControllers()
+            //         .AddJsonOptions(options =>
+            //         {
+            //             options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+            //             options.JsonSerializerOptions.PropertyNamingPolicy = null;
+            //             options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+            //         });
+            services.AddControllers()
+                    .AddNewtonsoftJson(options =>
+                    {
+                        var settings = options.SerializerSettings;
+
+                        settings.Converters.Add(new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy() });
+                        settings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
+                        settings.Formatting = Formatting.Indented;
+                        settings.NullValueHandling = NullValueHandling.Ignore;
+
+                    });
+            services.AddMvc();
+            //services.AddMvc(options =>
+            //{
+            //    options.Filters.Add(new ProducesAttribute("application/json"));
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +76,8 @@ namespace CognigatorApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
