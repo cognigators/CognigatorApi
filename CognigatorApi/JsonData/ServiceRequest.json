@@ -7,9 +7,11 @@
 			"SR_STATUS_TRAN_ID": "3",
 			"S_CLIENT_ID": "1",
 			"D_CREATED_DATE": "8/5/21",
-			"S_CREATED_BY": "System",
+			"S_CREATED_BY": "Phoenix",
 			"S_ACTIVE": "A",
-			"MISC_COST": "100"
+			"MISC_COST": "100",
+			"N_PRIORITY": 1,
+			"S_CURRENCY": "INR"
 		},
 		{
 			"SR_ID": "2",
@@ -19,9 +21,11 @@
 			"SR_STATUS_TRAN_ID": "3",
 			"S_CLIENT_ID": "2",
 			"D_CREATED_DATE": "8/5/21",
-			"S_CREATED_BY": "System",
+			"S_CREATED_BY": "Phoenix",
 			"S_ACTIVE": "A",
-			"MISC_COST": "250"
+			"MISC_COST": "250",
+			"N_PRIORITY": 2,
+			"S_CURRENCY": "INR"
 		},
 		{
 			"SR_ID": "3",
@@ -31,8 +35,10 @@
 			"SR_STATUS_TRAN_ID": "3",
 			"S_CLIENT_ID": "3",
 			"D_CREATED_DATE": "8/5/21",
-			"S_CREATED_BY": "System",
-			"S_ACTIVE": "A",
-			"MISC_COST": "175"
+			"S_CREATED_BY": "Phoenix",
+			"S_ACTIVE": "I",
+			"MISC_COST": "175",
+			"N_PRIORITY": 3,
+			"S_CURRENCY": "INR"
 		}
 	]
