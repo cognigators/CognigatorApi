@@ -107,7 +107,7 @@ namespace CognigatorApi.Controllers
             public string s_active { get; set; }
             public string misc_cost { get; set; }
             public int n_priority { get; set; }
-            public int s_currency { get; set; }
+            public string s_currency { get; set; }
 
 
         }
