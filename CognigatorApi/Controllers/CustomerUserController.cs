@@ -14,7 +14,7 @@ namespace CognigatorApi.Controllers
     public class CustomerUserController : ControllerBase
     {
         //[Produces("application/json")]
-        [HttpGet, Route("GetCustomer/{clientId?}")]
+        [HttpGet, Route("GetCustomer")]
         public IActionResult GetCustomer(string clientId)
         {
             string jsonFilePath = @"..\\cognigatorApi\\JsonData\\ClientUserInfo.json";

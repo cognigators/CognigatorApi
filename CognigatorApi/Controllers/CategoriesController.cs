@@ -13,7 +13,7 @@ namespace CognigatorApi.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        [HttpGet, Route("GetCategories/{categoryId?}")]
+        [HttpGet, Route("GetCategories")]
         public IActionResult GetSR(string categoryId)
         {
             //LoadJson();

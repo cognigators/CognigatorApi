@@ -15,7 +15,7 @@ namespace CognigatorApi.Controllers
     [ApiController]
     public class ServiceRequestController : ControllerBase
     {
-        [HttpGet, Route("GetSR/{srId?}")]
+        [HttpGet, Route("GetSR")]
         public IActionResult GetSR(string srId)
         {
             //LoadJson();
@@ -55,8 +55,8 @@ namespace CognigatorApi.Controllers
 
 
                 }
-                else { 
-                     result = json; 
+                else {
+                    result = JsonConvert.SerializeObject(json, Formatting.Indented);
                 }
                 //if (!result.Any())
                 //{

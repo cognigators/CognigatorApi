@@ -13,7 +13,7 @@ namespace CognigatorApi.Controllers
     [ApiController]
     public class SubCategoriesController : ControllerBase
     {
-        [HttpGet, Route("GetSubCategories/{SubCategoryId?}")]
+        [HttpGet, Route("GetSubCategories")]
         public IActionResult GetSubCategories(string SubCategoryId)
         {
             string jsonFilePath = @"..\\cognigatorApi\\JsonData\\SubCategoryMaster.json";
