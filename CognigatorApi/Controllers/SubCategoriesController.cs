@@ -51,7 +51,8 @@ namespace CognigatorApi.Controllers
                 }
                 else
                 {
-                    result = json;
+                    List<SubCategoryMaster> CognigatorObject = JsonConvert.DeserializeObject<List<SubCategoryMaster>>(json).ToList();
+                    result = JsonConvert.SerializeObject(CognigatorObject, Formatting.Indented);
                 }
                 //if (!result.Any())
                 //{
@@ -65,6 +66,13 @@ namespace CognigatorApi.Controllers
         {
             public string n_subcategory_id { get; set; }
             public string s_subcategory_name { get; set; }
+            public string catMaster
+            {
+                get
+                {
+                    return s_category_name + " - " + s_subcategory_name;
+                }
+            }
             public string n_category_id { get; set; }
             public string s_category_name { get; set; }
             public string s_active { get; set; }
