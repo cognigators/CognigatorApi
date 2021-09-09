@@ -34,10 +34,10 @@ namespace CognigatorApi
             services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  builder =>
-                                  {
-                                      builder.WithOrigins("http://example.com",
-                                                          "http://www.contoso.com");
+                                  builder => {
+                                      builder.AllowAnyOrigin()
+                                              .AllowAnyMethod()
+                                              .AllowAnyHeader();
                                   });
             });
             //services.AddControllers()
@@ -47,22 +47,22 @@ namespace CognigatorApi
             //             options.JsonSerializerOptions.PropertyNamingPolicy = null;
             //             options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
             //         });
-            services.AddControllers()
-                    .AddNewtonsoftJson(options =>
-                    {
-                        var settings = options.SerializerSettings;
+            //services.AddControllers()
+            //        .AddNewtonsoftJson(options =>
+            //        {
+            //            var settings = options.SerializerSettings;
 
-                        settings.Converters.Add(new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy() });
-                        settings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
-                        settings.Formatting = Formatting.Indented;
-                        settings.NullValueHandling = NullValueHandling.Ignore;
+            //            settings.Converters.Add(new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy() });
+            //            settings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
+            //            settings.Formatting = Formatting.Indented;
+            //            settings.NullValueHandling = NullValueHandling.Ignore;
 
-                    });
-            services.AddMvc();
-            //services.AddMvc(options =>
-            //{
-            //    options.Filters.Add(new ProducesAttribute("application/json"));
-            //});
+            //        });
+            services.AddMvc()
+            .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.WriteIndented = true;
+    });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,7 +73,6 @@ namespace CognigatorApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 
