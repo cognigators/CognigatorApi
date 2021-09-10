@@ -58,7 +58,8 @@ namespace CognigatorApi.Controllers
                 }
                 else
                 {
-                    result = json;
+                    List<SpMaster> cognigatorObject = JsonConvert.DeserializeObject<List<SpMaster>>(json).ToList();
+                    result = JsonConvert.SerializeObject(cognigatorObject, Formatting.Indented);
                 }
                 //if (!result.Any())
                 //{
@@ -85,6 +86,8 @@ namespace CognigatorApi.Controllers
             public string s_created_by { get; set; }
             public string d_created_date { get; set; }
             public string category_tagged { get; set; }
+            public string sp_id { get; set; }
+            
 
 
         }

@@ -65,7 +65,7 @@ namespace CognigatorApi.Controllers
                 return Ok(result);
             }
         }
-        [HttpGet, Route("GetSRQueue/user/{Client?}")]
+        [HttpGet, Route("GetSRQueue/user")]
         public IActionResult GetSRQueue(string Client)
         {
             //LoadJson();
@@ -85,7 +85,8 @@ namespace CognigatorApi.Controllers
                 }
                 else
                 {
-                    result = json;
+                    List<ServiceRequest> ServiceRequestResult = JsonConvert.DeserializeObject<List<ServiceRequest>>(json).OrderBy(s => s.n_priority).OrderByDescending(s => s.s_active).ToList();
+                    result = JsonConvert.SerializeObject(ServiceRequestResult, Formatting.Indented);
                 }
                 //if (!result.Any())
                 //{
@@ -108,6 +109,13 @@ namespace CognigatorApi.Controllers
             public string misc_cost { get; set; }
             public int n_priority { get; set; }
             public string s_currency { get; set; }
+            public string sp_name { get; set; }
+            public string sp_id { get; set; }
+            public string sp_rating { get; set; }
+            public string s_category_name { get; set; }
+            public string s_subcategory_name { get; set; }
+            public DateTime time_in { get; set; }
+            public DateTime? time_out { get; set; }
 
 
         }

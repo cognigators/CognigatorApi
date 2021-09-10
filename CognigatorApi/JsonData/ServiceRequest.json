@@ -11,7 +11,15 @@
 			"S_ACTIVE": "A",
 			"MISC_COST": "100",
 			"N_PRIORITY": 1,
-			"S_CURRENCY": "INR"
+			"S_CURRENCY": "INR",
+			"SP_NAME": "Liam",
+			"SP_ID": "1101",
+			"SP_RATING": "4",
+			"S_CATEGORY_NAME": "Electrical",
+			"S_SUBCATEGORY_NAME": "Fan",
+			"TIME_IN": "2021-08-23T18:25:43.511Z",
+			"TIME_OUT": ""
+
 		},
 		{
 			"SR_ID": "2",
@@ -25,7 +33,14 @@
 			"S_ACTIVE": "A",
 			"MISC_COST": "250",
 			"N_PRIORITY": 2,
-			"S_CURRENCY": "INR"
+			"S_CURRENCY": "INR",
+			"SP_NAME": "William",
+			"SP_ID": "1105",
+			"SP_RATING": "4",
+			"S_CATEGORY_NAME": "Plumbing",
+			"S_SUBCATEGORY_NAME": "Water supply",
+			"TIME_IN": "2021-08-28T09:25:43.511Z",
+			"TIME_OUT": ""
 		},
 		{
 			"SR_ID": "3",
@@ -39,6 +54,13 @@
 			"S_ACTIVE": "I",
 			"MISC_COST": "175",
 			"N_PRIORITY": 3,
-			"S_CURRENCY": "INR"
+			"S_CURRENCY": "INR",
+			"SP_NAME": "Alexander",
+			"SP_ID": "1110",
+			"SP_RATING": "5",
+			"S_CATEGORY_NAME": "Plumbing",
+			"S_SUBCATEGORY_NAME": "Repair",
+			"TIME_IN": "2021-09-01T13:30:00.511Z",
+			"TIME_OUT": ""
 		}
 	]
