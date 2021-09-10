@@ -106,7 +106,7 @@ namespace CognigatorApi.Controllers
             public string d_created_date { get; set; }
             public string s_created_by { get; set; }
             public string s_active { get; set; }
-            public string misc_cost { get; set; }
+            public int misc_cost { get; set; }
             public int n_priority { get; set; }
             public string s_currency { get; set; }
             public string sp_name { get; set; }
@@ -116,6 +116,19 @@ namespace CognigatorApi.Controllers
             public string s_subcategory_name { get; set; }
             public DateTime time_in { get; set; }
             public DateTime? time_out { get; set; }
+            public double totalCost
+            {
+                get
+                {
+                    double totalminutes = 0;
+                    if (time_out != null && time_in != null)
+                    {
+                        TimeSpan timeDiff = (TimeSpan)(time_out - time_in);
+                        totalminutes = (timeDiff.TotalMinutes);
+                    }
+                    return Math.Round(((totalminutes/60) * misc_cost),2);
+                }
+            }
 
 
         }

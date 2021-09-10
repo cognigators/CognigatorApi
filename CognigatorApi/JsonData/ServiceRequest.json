@@ -9,7 +9,7 @@
 			"D_CREATED_DATE": "8/5/21",
 			"S_CREATED_BY": "Phoenix",
 			"S_ACTIVE": "A",
-			"MISC_COST": "100",
+			"MISC_COST": 100,
 			"N_PRIORITY": 1,
 			"S_CURRENCY": "INR",
 			"SP_NAME": "Liam",
@@ -18,7 +18,7 @@
 			"S_CATEGORY_NAME": "Electrical",
 			"S_SUBCATEGORY_NAME": "Fan",
 			"TIME_IN": "2021-08-23T18:25:43.511Z",
-			"TIME_OUT": ""
+			"TIME_OUT": "2021-08-23T19:25:53.511Z"
 
 		},
 		{
@@ -31,7 +31,7 @@
 			"D_CREATED_DATE": "8/5/21",
 			"S_CREATED_BY": "Phoenix",
 			"S_ACTIVE": "A",
-			"MISC_COST": "250",
+			"MISC_COST": 250,
 			"N_PRIORITY": 2,
 			"S_CURRENCY": "INR",
 			"SP_NAME": "William",
@@ -52,7 +52,7 @@
 			"D_CREATED_DATE": "8/5/21",
 			"S_CREATED_BY": "Phoenix",
 			"S_ACTIVE": "I",
-			"MISC_COST": "175",
+			"MISC_COST": 175,
 			"N_PRIORITY": 3,
 			"S_CURRENCY": "INR",
 			"SP_NAME": "Alexander",
