@@ -116,6 +116,9 @@ namespace CognigatorApi.Controllers
             public string s_subcategory_name { get; set; }
             public DateTime time_in { get; set; }
             public DateTime? time_out { get; set; }
+            public string sp_location { get; set; }
+            public string sp_latitude { get; set; }
+            public string sp_longtitude { get; set; }
             public double totalCost
             {
                 get
