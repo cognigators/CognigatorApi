@@ -132,6 +132,7 @@ namespace CognigatorApi.Controllers
                     return Math.Round(((totalminutes/60) * misc_cost),2);
                 }
             }
+            public bool select { get; set; }
 
 
         }
