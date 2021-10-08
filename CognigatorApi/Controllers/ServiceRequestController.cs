@@ -95,6 +95,37 @@ namespace CognigatorApi.Controllers
                 return Ok(result);
             }
         }
+
+        [HttpGet, Route("GetSPList/catId")]
+        public IActionResult GetSPList(string Client)
+        {
+            //LoadJson();
+            //return new string[] { "values 1", "values 2" };
+            string jsonFilePath = @"..\\cognigatorApi\\JsonData\\ServiceRequest.json";
+            using (StreamReader r = new StreamReader(jsonFilePath))
+            {
+                string json = r.ReadToEnd();
+
+                var result = string.Empty;
+                if (!string.IsNullOrEmpty(Client))
+                {
+                    List<ServiceRequest> ServiceRequestResult = JsonConvert.DeserializeObject<List<ServiceRequest>>(json).Where(x => x.s_category_name == Client).OrderBy(s => s.n_priority).OrderByDescending(s => s.s_active).ToList();
+                    result = JsonConvert.SerializeObject(ServiceRequestResult, Formatting.Indented);
+
+
+                }
+                else
+                {
+                    List<ServiceRequest> ServiceRequestResult = JsonConvert.DeserializeObject<List<ServiceRequest>>(json).OrderBy(s => s.n_priority).OrderByDescending(s => s.s_active).ToList();
+                    result = JsonConvert.SerializeObject(ServiceRequestResult, Formatting.Indented);
+                }
+                //if (!result.Any())
+                //{
+                //    return NotFound("No Records Found");
+                //}
+                return Ok(result);
+            }
+        }
         public class ServiceRequest
         {
             public string sr_id { get; set; }
